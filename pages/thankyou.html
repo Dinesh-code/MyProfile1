@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip { color: blue;
+  background-color: antiquewhite;
+  padding: 5px;
+  text-align: center;
+  background-color:whitesmoke;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  color: blue;
+  display: none;
+  background-color: bisque;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip"><strong>Special Thank's To Gajanan Sir</strong> </div>
+<div id="panel"><img src="thank-you-note.jpg" alt="image"></div>
+
+</body>
+</html>

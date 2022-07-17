@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="image1.jpg">
+    <style>
+        fieldset {
+            width: 50%;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding-left: 15px;
+        }
+
+        legend {
+            border: 2px solid black;
+            border-radius: 10px 0px;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend><strong>Studend Info</strong> </legend>
+        <form action="">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <lable>Name:</lable> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable>Password:</lable><input type="password">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br>
+                            <strong>
+                                <lable>Please check all the emotion that apply to you :</lable>
+                            </strong> <Br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Angry</label> <input type="checkbox"><br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Sad</label> <input type="checkbox"><br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Happy</label> <input type="checkbox"><br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Ambivalent</label> <input type="checkbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>
+                                <lable>How satisfied were you with our service ?:</lable>
+                            </strong> <Br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Very Satisfied</label> <input type="radio"
+                                name="name"><br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Satisfied</label> <input type="radio"
+                                name="name"><br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Din't care</label> <input type="radio"
+                                name="name"><br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Dissatisfied</label> <input type="radio"
+                                name="name"><br>
+                            &nbsp; &nbsp;&nbsp; &nbsp;<label for="">Very dissatisfied</label> <input type="radio"
+                                name="name">
+
+                        </td>
+
+                    </tr>
+                    <tr>
+
+                        <td colspan="2">
+                            <lable>Further Comment :</lable>
+                            <textarea name="" id="" cols="30" rows="3"></textarea>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable> Bio Photo :</lable> <input type="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable>Location Visited :</lable>
+                            <select name="" id="">
+                                <option value="">Delhi</option>
+                                <option value="1">Mumbai</option>
+                                <option value="">Goa</option>
+                                <option value="">Punjab</option>
+                                <option value="">Kolkatta</option>
+                                <option value="">Sikkim</option>
+                            </select>
+
+
+                        </td>
+
+                    <tr>
+                        <td><input type="submit"></td>
+                        <td><input type="reset"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
